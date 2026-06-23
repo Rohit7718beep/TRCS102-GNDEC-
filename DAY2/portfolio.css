@@ -1,0 +1,61 @@
+#name{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height:40px;
+    width:100px;
+}
+body{
+    background-color:wheat;
+
+}
+#bio{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#bio1{
+    text-align: center;
+    background-color:hotpink;
+    font-style:italic;
+
+
+}
+
+#unorder{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    background-color:brown;
+    border-radius: 100px;
+    font-style: italic;
+    text-decoration: dotted;
+    border: 4px dashed black;
+}
+
+#image{
+    border: 2px solid pink;
+    border-radius: 34px;
+    background-color: antiquewhite;
+}
+
+#skills{
+    background-color: green;
+    font-style: oblique;
+    font-weight: 200;
+    text-align: center;
+    
+}
+
+#t1{
+    border:2px solid black;
+    margin-left: 400px;
+    margin-top:40px;
+    background-color: blueviolet;
+    
+}
+
+#link{
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-left:415px;
+   
+}
