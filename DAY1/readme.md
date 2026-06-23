@@ -12,5 +12,5 @@ On the very first day, we learn some basic concepts of html
 
 **TASKS DONE ON DAY 1**
 1. Created basic portfolio
-2. created sample Table
+2. created Table
 
