@@ -1,0 +1,22 @@
+#container{
+    background-color:aqua;
+    display: flex;
+    height:400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+#one{
+    background-color: red;
+    display:flex;
+    width:400px;
+    justify-content: end;
+}
+#butto{
+    display:flex;
+    height:300px;
+    align-items: center;
+    justify-content: center;
+    color:red;
+}
