@@ -51,7 +51,7 @@ I learned how to connect an external CSS file to an HTML document using the `<li
 In CSS, I explored the concept of styling web pages and learned how CSS can be used to modify the appearance of HTML elements by changing properties such as colors, spacing, alignment, and layout. I also practiced using IDs and containers for applying styles to specific elements on a webpage.
 
 
-# Daily Training Diary – Day 4
+
 In JavaScript, I learned the basics of programming and how to add interactivity to websites. The topics covered included:
 
 * Displaying output in the browser console using `console.log()`.
@@ -74,7 +74,7 @@ Additionally, I learned the difference between loose equality (`==`) and strict 
 
 Overall, Day 3 provided a strong foundation in web styling and programming concepts, helping me understand how websites become visually attractive and interactive for users.
 
-
+# Daily Training Diary – Day 4
 Today was the fourth day of my training, and I was introduced to some important JavaScript concepts that are essential for building dynamic and interactive web applications.
 
 I learned about **arrays** in JavaScript and how they are used to store multiple values in a single variable. I practiced creating arrays, accessing elements using indexes, modifying values, and using common array methods for managing data efficiently.
