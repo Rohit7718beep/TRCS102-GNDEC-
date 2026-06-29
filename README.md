@@ -50,6 +50,8 @@ I learned how to connect an external CSS file to an HTML document using the `<li
 
 In CSS, I explored the concept of styling web pages and learned how CSS can be used to modify the appearance of HTML elements by changing properties such as colors, spacing, alignment, and layout. I also practiced using IDs and containers for applying styles to specific elements on a webpage.
 
+
+# Daily Training Diary – Day 4
 In JavaScript, I learned the basics of programming and how to add interactivity to websites. The topics covered included:
 
 * Displaying output in the browser console using `console.log()`.
@@ -71,6 +73,52 @@ I also practiced different types of operators in JavaScript, including:
 Additionally, I learned the difference between loose equality (`==`) and strict equality (`===`) and understood how JavaScript handles type comparison.
 
 Overall, Day 3 provided a strong foundation in web styling and programming concepts, helping me understand how websites become visually attractive and interactive for users.
+
+
+Today was the fourth day of my training, and I was introduced to some important JavaScript concepts that are essential for building dynamic and interactive web applications.
+
+I learned about **arrays** in JavaScript and how they are used to store multiple values in a single variable. I practiced creating arrays, accessing elements using indexes, modifying values, and using common array methods for managing data efficiently.
+
+I also explored **functions**, which are reusable blocks of code designed to perform specific tasks. I learned how to create and call functions, pass parameters to functions, and return values, helping me understand the importance of code reusability and modular programming.
+
+Another important topic covered was **loops**, which allow repetitive tasks to be performed automatically. I practiced using different types of loops such as:
+
+* `for` loops
+* `while` loops
+* `do...while` loops
+* `for...of` loops
+
+These helped me understand how to iterate through data and execute code multiple times efficiently.
+
+I was also introduced to **objects** in JavaScript, which are used to store data in the form of key-value pairs. I learned how to create objects, access object properties using dot notation and bracket notation, and update object values dynamically.
+
+Additionally, I explored some **advanced array concepts and methods** that simplify data manipulation and processing. These included:
+
+* `push()` and `pop()`
+* `shift()` and `unshift()`
+* `slice()` and `splice()`
+* `map()`
+* `filter()`
+* `reduce()`
+* `forEach()`
+* `find()`
+* `includes()`
+
+These methods helped me understand how modern JavaScript handles collections of data more effectively and with cleaner code.
+
+Throughout the session, I practiced solving small programming problems using arrays, loops, functions, and objects, which strengthened my understanding of JavaScript fundamentals and problem-solving techniques.
+
+Overall, Day 4 provided a solid foundation in JavaScript programming concepts and data handling techniques, helping me move closer to developing more interactive, efficient, and scalable web applications.
+
+I was also introduced to the **Document Object Model (DOM)**, which acts as a bridge between HTML and JavaScript and allows developers to access and manipulate webpage elements dynamically. I learned how JavaScript can interact with HTML elements by selecting them through different DOM methods such as:
+
+* `document.getElementById()`
+* `document.getElementsByClassName()`
+* `document.getElementsByTagName()`
+* `document.querySelector()`
+* `document.querySelectorAll()`
+
+Using these methods, I practiced selecting HTML elements and modifying their content, styles, and attributes dynamically. This helped me understand how JavaScript is used to create interactive web pages by responding to user actions and updating webpage content without reloading the page.
 
 
 
