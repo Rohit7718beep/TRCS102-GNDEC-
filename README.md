@@ -120,5 +120,118 @@ I was also introduced to the **Document Object Model (DOM)**, which acts as a br
 
 Using these methods, I practiced selecting HTML elements and modifying their content, styles, and attributes dynamically. This helped me understand how JavaScript is used to create interactive web pages by responding to user actions and updating webpage content without reloading the page.
 
+  # Daily Training Diary – Day 5
+
+  # Daily Training Diary – Day 5
+
+Today was the fifth day of my training, and I continued exploring JavaScript concepts with a strong focus on the Document Object Model (DOM) and creating interactive web pages.
+
+I learned more about DOM manipulation and how JavaScript can dynamically interact with HTML elements to modify content, styles, and attributes based on user actions. This helped me understand how modern websites provide real-time interactions without requiring a page refresh.
+
+One of the important concepts introduced today was the `querySelector()` method, which allows developers to select HTML elements using CSS selectors. Unlike traditional DOM methods, `querySelector()` provides a more flexible and powerful way to access elements using IDs, classes, tags, and complex selectors.
+
+I also learned about `querySelectorAll()`, which returns all matching elements as a collection and allows developers to perform operations on multiple elements simultaneously.
+
+Another major topic covered was the Toggle Function. I learned how the `classList.toggle()` method can be used to add or remove CSS classes dynamically with a single line of code. This technique is widely used for implementing features such as:
+
+* Dark and Light Mode switching
+* Show and Hide Password functionality
+* Navigation menu toggles
+* Expand and Collapse sections
+* Interactive buttons and animations
+
+I practiced creating interactive components using toggle functionality and observed how JavaScript and CSS work together to provide a better user experience.
+
+Additionally, I explored several DOM concepts in greater detail, including:
+
+* Selecting HTML elements dynamically.
+* Changing element text using `innerText` and `textContent`.
+* Updating HTML content using `innerHTML`.
+* Modifying CSS styles through JavaScript.
+* Adding and removing classes using `classList`.
+* Manipulating element attributes using `setAttribute()` and `getAttribute()`.
+* Handling user interactions through events such as clicks and keyboard inputs.
+
+I also gained an understanding of Event Handling and how JavaScript responds to user actions through events like:
+
+* `click`
+* `mouseover`
+* `mouseout`
+* `keydown`
+* `submit`
+
+These concepts helped me understand how interactive web applications respond to user input and update webpage content dynamically.
+
+Throughout the session, I implemented small projects and examples involving buttons, text updates, visibility toggling, and dynamic styling changes using DOM manipulation techniques.
+
+Overall, Day 5 strengthened my understanding of JavaScript interactivity and DOM manipulation, bringing me closer to developing fully interactive and user-friendly web applications.
+
+
+# Daily Training DAY 6
+
+
+
+Today was the sixth day of my training, and I was introduced to React.js, one of the most popular JavaScript libraries used for building modern and scalable user interfaces.
+
+The session began with an introduction to React and the reasons behind its popularity in modern web development. I learned that React follows a component-based architecture, where applications are divided into small, reusable, and independent pieces called components.
+
+One of the first concepts covered was the project structure of a React application. I explored the purpose of important folders and files, including:
+
+* `src` folder for source code.
+* `public` folder for static assets.
+* `package.json` for managing dependencies and project scripts.
+* `node_modules` for installed packages.
+* `main.jsx` as the entry point of the application.
+* `App.jsx` as the root component of the application.
+
+I learned about Components, which are reusable pieces of UI that help organize code efficiently and improve maintainability. Components can be reused multiple times throughout an application, reducing duplication and making development faster.
+
+I was introduced to:
+
+* Functional Components
+* Component Reusability
+* Component Composition
+* Exporting and Importing Components
+
+I practiced creating my own components and rendering them inside the main application component.
+
+Another important concept covered was JSX (JavaScript XML), which allows developers to write HTML-like syntax directly inside JavaScript code. JSX makes React code easier to read and understand while enabling the creation of dynamic user interfaces.
+
+I learned several JSX rules, including:
+
+* Components must return a single parent element.
+* JavaScript expressions can be embedded using curly braces `{}`.
+* `className` is used instead of `class`.
+* Self-closing tags must end with `/>`.
+
+I also explored how React uses a Virtual DOM to improve performance. Unlike traditional DOM manipulation, React updates only the parts of the webpage that have changed, resulting in faster rendering and a smoother user experience.
+
+Additionally, I learned about the development workflow involved in creating React applications using modern tools such as:
+
+* Node.js
+* npm (Node Package Manager)
+* Vite
+* Visual Studio Code
+
+I practiced creating a React project using Vite and learned the purpose of commands such as:
+
+* `npm create vite@latest`
+* `npm install`
+* `npm run dev`
+
+These commands helped me understand how React applications are initialized and executed in a development environment.
+
+I also gained introductory knowledge about React features that will be explored further in upcoming sessions, including:
+
+* Props
+* State
+* Event Handling
+* Hooks
+* Conditional Rendering
+* Lists and Keys
+
+Throughout the session, I created basic React components, rendered them on the screen, and experimented with JSX syntax to understand how React applications are built.
+
+Overall, Day 6 marked my entry into modern frontend development with React.js and provided a strong foundation for building interactive, reusable, and scalable user interfaces in future projects.
 
 
