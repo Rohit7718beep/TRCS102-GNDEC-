@@ -234,4 +234,23 @@ Throughout the session, I created basic React components, rendered them on the s
 
 Overall, Day 6 marked my entry into modern frontend development with React.js and provided a strong foundation for building interactive, reusable, and scalable user interfaces in future projects.
 
+# Daily Training DAY 7
+
+Today, I learned one of the most important concepts in React: **Hooks**, which allow functional components to manage state and other React features without using class components.
+
+I started by understanding the **`useState` Hook**, which is used to create and update state variables in a React component. I practiced how state changes trigger component re-rendering and learned the correct way to update state using setter functions.
+
+After learning the basics of Hooks, I implemented a **Theme Toggle** feature. This project helped me understand how to switch between light and dark themes dynamically using state. I learned how conditional rendering and dynamic CSS classes can be used to change the application's appearance based on the current theme.
+
+Next, I built a **Password Toggle** feature for a login form. I learned how to change the input field type between `"password"` and `"text"` using React state, allowing users to show or hide their password securely. While implementing this, I also understood the importance of handling events correctly using `onClick` and updating the UI through state instead of directly manipulating the DOM.
+
+During today's practice, I also became familiar with concepts such as:
+
+* Managing component state using the `useState` Hook.
+* Event handling in React.
+* Conditional rendering using the ternary (`? :`) operator.
+* Updating the user interface dynamically based on state changes.
+* Building reusable and interactive React components.
+
+Overall, today's session strengthened my understanding of React Hooks and demonstrated how state management can be used to create responsive, user-friendly, and interactive web applications. These concepts form the foundation for developing modern React applications and will be valuable in future projects.
 
