@@ -254,3 +254,95 @@ During today's practice, I also became familiar with concepts such as:
 
 Overall, today's session strengthened my understanding of React Hooks and demonstrated how state management can be used to create responsive, user-friendly, and interactive web applications. These concepts form the foundation for developing modern React applications and will be valuable in future projects.
 
+# Daily Training DAY 8
+
+# **Day 8 – React Routing with React Router DOM**
+
+Today, I learned one of the most important concepts in React development: **Routing**. Routing allows users to navigate between different pages in a React application without reloading the browser, making the application faster and providing a better user experience.
+
+## Topics Covered
+
+### 1. Introduction to Routing
+
+* Understood the concept of **client-side routing**.
+* Learned how routing differs from traditional website navigation.
+* Explored the benefits of Single Page Applications (SPA), where only the required components are updated instead of reloading the entire webpage.
+
+### 2. React Router DOM
+
+* Learned how to install and use the **React Router DOM** library.
+* Understood the purpose of React Router in handling navigation between different pages in a React application.
+* Explored the basic structure required for implementing routing.
+
+### 3. Creating Routes
+
+* Learned how to create routes using `createBrowserRouter()`.
+* Defined different routes by specifying:
+
+  * `path` – the URL path.
+  * `element` – the React component to display.
+* Created multiple routes such as:
+
+  * Home (`/`)
+  * About (`/about`)
+  * Navbar (`/navbar`)
+
+### 4. RouterProvider
+
+* Learned the role of `RouterProvider`.
+* Understood how it connects the router configuration to the React application.
+* Learned that `RouterProvider` is responsible for rendering the correct component based on the current URL.
+
+### 5. Navigation using Link
+
+* Learned how to navigate between pages using the `Link` component.
+* Understood the syntax of:
+
+  ```jsx
+  <Link to="/about">About</Link>
+  ```
+* Learned why `Link` is preferred over the HTML `<a>` tag in React applications.
+* Understood that `Link` changes the URL without refreshing the page.
+
+### 6. Understanding Path and Element
+
+* Learned the importance of the `path` property in routing.
+* Understood how the `element` property determines which component should be rendered for a specific route.
+* Practiced connecting different components with different paths.
+
+### 7. Practical Implementation
+
+* Created separate components for:
+
+  * Home
+  * About
+  * Navbar
+* Configured routing between these components.
+* Tested navigation by visiting different URLs.
+
+### 8. Debugging and Error Handling
+
+* Encountered routing-related errors during implementation.
+* Learned to identify common mistakes such as:
+
+  * Using `<link>` instead of `<Link>`.
+  * Incorrect component imports.
+  * Incorrect route paths.
+  * Understanding that `RouterProvider` does not accept child components.
+* Practiced fixing these issues through debugging.
+
+## Key Learnings
+
+* React uses **client-side routing** to improve application performance.
+* `createBrowserRouter()` is used to define application routes.
+* `RouterProvider` renders the router configuration.
+* `Link` enables navigation without reloading the browser.
+* Each route consists of a **path** and an **element**.
+* Proper route configuration is essential for building scalable React applications.
+
+## Conclusion
+
+Today's session provided a strong foundation in React Routing. I learned how to create and manage routes, navigate between different pages, and understand the purpose of `RouterProvider`, `Link`, `path`, and `element`. Through hands-on practice and debugging, I gained confidence in building multi-page React applications with smooth client-side navigation. This knowledge will be valuable for developing larger React projects in the future.
+
+
+
