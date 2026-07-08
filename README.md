@@ -346,3 +346,53 @@ Today's session provided a strong foundation in React Routing. I learned how to 
 
 
 
+# Day 9 Training Diary – React Router & Layouts
+
+## Overview
+
+Today, I focused on learning **React Router** and explored how routing works in React applications. I understood how to build multi-page applications using client-side routing and learned to organize components efficiently using layouts and nested routes.
+
+## Topics Learned
+
+* Introduction to React Router DOM.
+* Creating routes using `createBrowserRouter()`.
+* Using `RouterProvider` to render the router.
+* Understanding client-side routing in React.
+* Creating a reusable **Layout** component.
+* Learning the purpose and working of the **Outlet** component.
+* Implementing **Nested Routing** using the `children` property.
+* Creating separate pages such as **Home** and **Product**.
+* Understanding **Parent** and **Child** routes.
+* Learning the difference between **Index Routes** and normal child routes.
+* Using the **Link** component for navigation without page reloads.
+* Organizing components into a clean and maintainable project structure.
+* Identifying and fixing common routing and syntax errors.
+
+## Practical Implementation
+
+* Created a reusable **Layout** component containing a common header.
+* Configured nested routes with parent and child relationships.
+* Rendered child components dynamically using the **Outlet** component.
+* Implemented navigation between **Home** and **Product** pages.
+* Corrected routing configuration issues and syntax mistakes.
+* Practiced debugging routing-related errors in React.
+
+## Key Concepts Covered
+
+* React Router DOM
+* `createBrowserRouter()`
+* `RouterProvider`
+* Layout Component
+* `Outlet`
+* Nested Routing
+* Parent & Child Routes
+* Index Route
+* `Link`
+* Route Configuration
+* Component-Based Navigation
+* React Project Structure
+* Routing Error Debugging
+
+## Learning Outcome
+
+Today's session helped me understand the fundamentals of React Router and how routing is implemented in modern React applications. I learned how to create reusable layouts, configure nested routes, use the `Outlet` component to render child pages, and navigate between different components efficiently. I also gained practical experience in debugging routing issues and organizing a React project following best practices.

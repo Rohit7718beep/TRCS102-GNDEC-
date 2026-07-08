@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header,nav,.auth{
+    background-color: antiquewhite;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+   margin:1rem;
+    gap:1rem;
+}
+
+
+
+
