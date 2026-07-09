@@ -10,7 +10,37 @@ header,nav,.auth{
     justify-content: space-around;
    margin:1rem;
     gap:1rem;
+    text-decoration: none;
+    color:inherit
 }
+nav,.auth{
+    background-color: antiquewhite;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+   margin:1rem;
+    gap:1rem;
+   
+}
+
+footer{
+    background-color: grey;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.hlink a{
+    text-decoration: none;
+    color:inherit
+}
+.anime{
+    height:600px;
+    width:600px;
+}
+
+
+
 
 
 

@@ -396,3 +396,70 @@ Today, I focused on learning **React Router** and explored how routing works in 
 ## Learning Outcome
 
 Today's session helped me understand the fundamentals of React Router and how routing is implemented in modern React applications. I learned how to create reusable layouts, configure nested routes, use the `Outlet` component to render child pages, and navigate between different components efficiently. I also gained practical experience in debugging routing issues and organizing a React project following best practices.
+
+
+# Day 10 Training Diary
+
+**Date:** 09 July 2026
+
+## Topics Covered
+
+### 1. React Router `Link` Component
+- Learned how to use the `Link` component from `react-router-dom`.
+- Understood the difference between HTML `<a>` tags and React Router `<Link>`.
+- Learned that `Link` enables client-side navigation without refreshing the page.
+- Explored the `to` prop for navigating between different routes.
+- Learned how to style `Link` components using CSS by targeting the generated `<a>` element.
+
+---
+
+### 2. Lottie Animations
+- Learned how to integrate animations into a React application using Lottie.
+- Understood how to import JSON animation files.
+- Used the `lottie-react` component to render animations.
+- Explored how animations improve the visual appeal and user experience of a website.
+- Learned to control animation properties such as loop and autoplay.
+
+---
+
+### 3. Working with JSON Animation Files
+- Understood that Lottie animations are stored as JSON files.
+- Learned how to import JSON files into React components.
+- Displayed animations by passing JSON data to the Lottie component.
+- Explored how lightweight JSON animations are compared to GIFs or videos.
+
+---
+
+### 4. Tab Navigation Using Click Events
+- Learned how to create multiple navigation tabs.
+- Used React's `useState` hook to manage the active tab.
+- Implemented `onClick` events to switch between tabs dynamically.
+- Displayed different content based on the selected tab.
+- Improved understanding of conditional rendering in React.
+
+---
+
+## Key Concepts Learned
+- React Router `Link`
+- Client-side routing
+- Lottie React
+- JSON animations
+- `useState`
+- `onClick` event handling
+- Conditional rendering
+- Dynamic tab navigation
+- CSS styling for navigation links
+
+---
+
+## Practical Work
+- Created navigation using the `Link` component.
+- Styled navigation links with CSS.
+- Added Lottie animations using JSON files.
+- Built a simple tab navigation system using React state and click events.
+- Practiced switching content dynamically without page refresh.
+
+---
+
+## Learning Outcome
+Today's session improved my understanding of React navigation and interactive UI development. I learned how to use the `Link` component for smooth routing, integrate Lottie JSON animations to create engaging interfaces, and build dynamic tab-based navigation using React state and click events. These concepts helped me understand how to create more interactive, modern, and user-friendly web applications.
