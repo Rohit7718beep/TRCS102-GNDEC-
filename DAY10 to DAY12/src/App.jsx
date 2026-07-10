@@ -8,6 +8,7 @@ import Cart from "./components/cart";
 import Orders from "./components/orders";
 import animation from "./animation/skate.json";
 import Lottie from "lottie-react"
+import Signin from "./components/signin";
 
 function App() {
   const route = createBrowserRouter([
@@ -39,6 +40,10 @@ function App() {
         {
           path: "/orders",
           element: <Orders />,
+        },
+         {
+          path: "/signin",
+          element: <Signin />,
         },
       ],
     },

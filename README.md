@@ -463,3 +463,67 @@ Today's session helped me understand the fundamentals of React Router and how ro
 
 ## Learning Outcome
 Today's session improved my understanding of React navigation and interactive UI development. I learned how to use the `Link` component for smooth routing, integrate Lottie JSON animations to create engaging interfaces, and build dynamic tab-based navigation using React state and click events. These concepts helped me understand how to create more interactive, modern, and user-friendly web applications.
+
+## Day11 - React Forms and User Input Handling
+
+
+## Topics Covered
+
+### 1. Introduction to Forms in React
+- Learned how to create forms in React using JSX.
+- Understood the difference between HTML forms and React forms.
+- Used the `<form>` element along with various input fields.
+
+### 2. Controlled Components
+- Learned how to make form inputs controlled using React state.
+- Connected input fields with the `useState` hook.
+- Updated state whenever the user typed in an input field.
+
+### 3. Storing User Input
+- Stored form data in state variables.
+- Managed multiple input values using separate state variables.
+- Learned how React keeps the UI synchronized with the component state.
+
+### 4. Handling Input Events
+- Used the `onChange` event to capture user input.
+- Learned about the `event` object and `event.target.value`.
+- Updated state dynamically as the user typed.
+
+### 5. Printing User Input
+- Displayed entered values in the browser.
+- Printed form data to the browser console using `console.log()`.
+- Understood how state changes are reflected immediately in the UI.
+
+### 6. Form Submission
+- Learned how to handle form submission using the `onSubmit` event.
+- Used `event.preventDefault()` to prevent the page from reloading.
+- Accessed and processed form data after submission.
+
+### 7. React Hooks
+- Strengthened understanding of the `useState` hook.
+- Learned how state updates trigger component re-rendering.
+
+### 8. Event Handling in React
+- Practiced handling user interactions using React events.
+- Understood the flow of user input from the UI to component state.
+
+### 9. Component-Based Form Design
+- Organized form-related code inside reusable React components.
+- Improved code readability by separating UI and logic.
+
+### 10. Hands-on Practice
+- Built a simple Sign In form.
+- Accepted user input through text and email fields.
+- Stored user information in state and displayed it in the console.
+- Practiced debugging form-related issues.
+
+## Key Takeaways
+- React forms are managed using component state.
+- Controlled components provide better control over user input.
+- `useState` is essential for storing and updating form values.
+- `onChange` and `onSubmit` are the primary events used in React forms.
+- `preventDefault()` prevents unwanted page reloads during form submission.
+- React automatically updates the UI whenever the state changes.
+
+## Outcome
+Today's session improved my understanding of React forms, state management, controlled components, event handling, and form submission. I can now create interactive forms, capture user input, store it using React state, and process the data efficiently.

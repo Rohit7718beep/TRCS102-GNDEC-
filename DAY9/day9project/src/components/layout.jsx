@@ -6,6 +6,7 @@ import Footer from './footer'
 import { Outlet } from 'react-router-dom'
 import About from './about'
 import Cart from './cart'
+
 const Layout = () => {
   return (<>
     <div>
@@ -13,6 +14,7 @@ const Layout = () => {
     <Header/>
     <Outlet/>
     <Footer/>
+    
     {/* <About/> */}
     {/* <Cart/> */}
     </>
