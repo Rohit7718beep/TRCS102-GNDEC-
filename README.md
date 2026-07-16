@@ -400,7 +400,7 @@ Today's session helped me understand the fundamentals of React Router and how ro
 
 # Day 10 Training Diary
 
-**Date:** 09 July 2026
+
 
 ## Topics Covered
 
@@ -527,3 +527,207 @@ Today's session improved my understanding of React navigation and interactive UI
 
 ## Outcome
 Today's session improved my understanding of React forms, state management, controlled components, event handling, and form submission. I can now create interactive forms, capture user input, store it using React state, and process the data efficiently.
+
+
+# Daily Learning Diary
+
+---
+
+# Day 13 - Backend Controllers
+
+## Topics Learned
+- Introduction to Controllers
+- Separation of business logic from routes
+- Creating controller functions
+- Handling requests and responses
+- Exporting and importing controllers
+
+## What I Practiced
+- Created separate controller files.
+- Moved route logic into controllers.
+- Used `req` and `res` objects to process requests.
+- Returned JSON responses.
+
+## Key Takeaways
+- Controllers keep the project organized.
+- Routes become cleaner and easier to maintain.
+- Business logic should stay inside controllers.
+
+---
+
+# Day 14 - Middleware
+
+## Topics Learned
+- What middleware is
+- Request-response lifecycle
+- Built-in middleware
+- Custom middleware
+- Error handling middleware
+
+## What I Practiced
+- Created custom middleware.
+- Logged incoming requests.
+- Validated request data.
+- Protected routes using middleware.
+
+## Key Takeaways
+- Middleware executes before reaching controllers.
+- It is useful for authentication, logging, and validation.
+- Multiple middleware functions can be chained.
+
+---
+
+# Day 15 - Database Connection & Configuration
+
+## Topics Learned
+- Connecting MongoDB with Node.js
+- Mongoose connection
+- Environment variables
+- Configuration files
+- Using `.env`
+
+## What I Practiced
+- Created a database connection file.
+- Stored database URL inside `.env`.
+- Loaded environment variables using dotenv.
+- Connected Express application with MongoDB.
+
+## Key Takeaways
+- Sensitive information should never be hardcoded.
+- Configuration files improve project structure.
+- Database connection should be centralized.
+
+---
+
+# Day 16 - JSON & API Basics
+
+## Topics Learned
+- JSON format
+- Request body
+- Response body
+- REST API basics
+- HTTP methods
+
+## What I Practiced
+- Sent JSON data from client.
+- Received JSON using Express.
+- Built simple GET and POST APIs.
+- Returned structured JSON responses.
+
+## Key Takeaways
+- JSON is the standard data exchange format.
+- APIs enable communication between frontend and backend.
+- Proper response formatting improves readability.
+
+---
+
+# Day 17 - Building REST APIs
+
+## Topics Learned
+- CRUD Operations
+- GET
+- POST
+- PUT
+- DELETE
+
+## What I Practiced
+- Created CRUD APIs.
+- Updated existing records.
+- Deleted records.
+- Retrieved all documents from MongoDB.
+
+## Key Takeaways
+- REST APIs follow standard HTTP methods.
+- CRUD forms the foundation of backend development.
+- Proper status codes improve API quality.
+
+---
+
+# Day 18 - API Testing
+
+## Topics Learned
+- API testing tools
+- Postman
+- Thunder Client
+- Status codes
+- Response validation
+
+## What I Practiced
+- Tested GET APIs.
+- Tested POST requests.
+- Verified response data.
+- Checked error responses.
+
+## Key Takeaways
+- API testing ensures backend reliability.
+- Different HTTP status codes indicate different outcomes.
+- Testing helps identify bugs early.
+
+---
+
+# Day 19 - MongoDB Commands
+
+## Topics Learned
+- MongoDB Shell
+- CRUD Commands
+- Query Operators
+- Update Operators
+- Delete Operations
+
+## What I Practiced
+- Inserted documents.
+- Queried collections.
+- Updated records.
+- Deleted documents.
+- Used filtering conditions.
+
+## Common Commands Practiced
+
+```javascript
+show dbs
+use myDatabase
+show collections
+db.users.find()
+db.users.insertOne({})
+db.users.insertMany([])
+db.users.updateOne()
+db.users.updateMany()
+db.users.deleteOne()
+db.users.deleteMany()
+db.users.findOne()
+```
+
+## Key Takeaways
+- MongoDB stores data in collections.
+- CRUD commands are frequently used in backend development.
+- Query operators help retrieve specific data efficiently.
+
+---
+
+# Day 20 - Backend Integration & Revision
+
+## Topics Revised
+- Controllers
+- Middleware
+- Database Connection
+- Configuration
+- JSON
+- REST APIs
+- API Testing
+- MongoDB Commands
+
+## What I Practiced
+- Connected all backend components together.
+- Created complete API flow.
+- Tested endpoints.
+- Fixed common errors.
+- Reviewed project structure.
+
+## Key Takeaways
+- A well-structured backend is easier to scale.
+- Proper folder organization improves maintainability.
+- Continuous practice strengthens backend development skills.
+
+---
+
+ I gained practical knowledge of backend development using Node.js, Express.js, and MongoDB. I learned how controllers separate business logic from routes, how middleware processes requests before reaching controllers, and how to establish a secure MongoDB connection using configuration files and environment variables. I also explored JSON data handling, developed RESTful APIs with CRUD operations, tested APIs using Postman/Thunder Client, practiced essential MongoDB commands, and integrated all backend components into a structured application. These concepts strengthened my understanding of building scalable and maintainable backend systems.
