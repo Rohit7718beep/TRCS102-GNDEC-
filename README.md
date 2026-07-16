@@ -464,7 +464,7 @@ Today's session helped me understand the fundamentals of React Router and how ro
 ## Learning Outcome
 Today's session improved my understanding of React navigation and interactive UI development. I learned how to use the `Link` component for smooth routing, integrate Lottie JSON animations to create engaging interfaces, and build dynamic tab-based navigation using React state and click events. These concepts helped me understand how to create more interactive, modern, and user-friendly web applications.
 
-## Day11 - React Forms and User Input Handling
+## Day11 and DAY12- React Forms and User Input Handling
 
 
 ## Topics Covered
