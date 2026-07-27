@@ -728,6 +728,297 @@ db.users.findOne()
 - Proper folder organization improves maintainability.
 - Continuous practice strengthens backend development skills.
 
+
+
+# Daily Training Diary – Day 21
+
+Today, I learned about **Express Routing**, which is used to organize different API endpoints in a Node.js application. As applications grow larger, writing all routes inside a single file becomes difficult to manage. Express provides the `Router()` method that allows developers to separate routes into different modules, making the project cleaner and easier to maintain.
+
+I also understood the concept of **Route Parameters** and **Query Parameters**. Route parameters are used to pass dynamic values through the URL, while query parameters are mainly used for filtering or searching data.
+
+## Topics Covered
+
+- Express Router
+- Modular Routing
+- Route Parameters
+- Query Parameters
+- Dynamic API Endpoints
+
+## Practical Work
+
+- Created multiple route files.
+- Used `express.Router()`.
+- Built APIs using route parameters.
+- Tested APIs in Postman.
+
+## Key Learnings
+
+- Modular routing improves code readability.
+- Dynamic routes make APIs more flexible.
+- Proper folder structure makes projects scalable.
+
+---
+
+# Daily Training Diary – Day 22
+
+Today's session focused on **MongoDB Models and Mongoose Schemas**. A schema defines the structure of documents stored inside a MongoDB collection. It specifies the type of data each field should contain and allows developers to apply validations before saving data into the database.
+
+I learned that Mongoose provides an easy way to interact with MongoDB using models instead of writing raw database queries.
+
+## Topics Covered
+
+- Mongoose Schema
+- Models
+- Data Validation
+- Required Fields
+- Default Values
+- Timestamps
+
+## Practical Work
+
+- Created User Schema.
+- Added validation rules.
+- Stored user information.
+- Retrieved records from MongoDB.
+
+## Key Learnings
+
+- Schemas maintain data consistency.
+- Models simplify database operations.
+- Validation prevents incorrect data entry.
+
+---
+
+# Daily Training Diary – Day 23
+
+Today, I learned about **Asynchronous Programming** in JavaScript. Since many operations such as database queries and API requests take time to complete, JavaScript provides asynchronous programming to avoid blocking the execution of other code.
+
+I explored **Promises** and the modern **async/await** syntax, which makes asynchronous code much easier to read and maintain compared to callback functions.
+
+## Topics Covered
+
+- Promises
+- Async & Await
+- Try-Catch
+- Error Handling
+
+## Practical Work
+
+- Converted callback functions into async functions.
+- Connected database asynchronously.
+- Handled errors using try-catch blocks.
+
+## Key Learnings
+
+- Async programming improves application performance.
+- Async/Await makes code cleaner.
+- Proper error handling improves reliability.
+
+---
+
+# Daily Training Diary – Day 24
+
+Today's training introduced me to **User Authentication**, which is one of the most important features of modern web applications. Authentication ensures that only registered users can access protected resources.
+
+I learned about **bcrypt**, a library used for encrypting passwords before storing them inside the database. Password hashing improves security because original passwords cannot be viewed even if the database is compromised.
+
+## Topics Covered
+
+- User Registration
+- Login System
+- Password Hashing
+- bcrypt
+- Authentication Basics
+
+## Practical Work
+
+- Built Signup API.
+- Created Login API.
+- Stored encrypted passwords.
+- Compared passwords during login.
+
+## Key Learnings
+
+- Never store plain-text passwords.
+- Password hashing improves security.
+- Authentication protects user accounts.
+
+---
+
+# Daily Training Diary – Day 25
+
+Today, I learned about **JSON Web Tokens (JWT)**, which are commonly used for secure authentication in web applications. After a user successfully logs in, the server generates a token that is sent to the client. This token is then used to verify the user's identity while accessing protected resources.
+
+JWT eliminates the need to store session information on the server, making authentication faster and scalable.
+
+## Topics Covered
+
+- JWT
+- Token Generation
+- Token Verification
+- Authorization
+- Protected Routes
+
+## Practical Work
+
+- Generated JWT tokens.
+- Protected private APIs.
+- Verified user authentication.
+- Created authorization middleware.
+
+## Key Learnings
+
+- JWT provides secure authentication.
+- Middleware verifies user identity.
+- Protected routes prevent unauthorized access.
+
+---
+
+# Daily Training Diary – Day 26
+
+Today's session focused on **MVC (Model-View-Controller) Architecture**, which is one of the most widely used software design patterns. MVC separates the application into different layers, making the code more organized and easier to maintain.
+
+I learned how controllers handle business logic, models interact with the database, and routes manage incoming requests.
+
+## Topics Covered
+
+- MVC Architecture
+- Controllers
+- Models
+- Routes
+- Configuration Files
+
+## Practical Work
+
+- Organized project folders.
+- Created separate controllers.
+- Improved code structure.
+- Removed duplicate code.
+
+## Key Learnings
+
+- MVC improves maintainability.
+- Clean architecture makes debugging easier.
+- Organized code scales better.
+
+---
+
+# Daily Training Diary – Day 27
+
+Today, I learned how to connect a React frontend with an Express backend using REST APIs. I explored the **Axios** library, which simplifies sending HTTP requests from the frontend.
+
+I also learned about the **useEffect Hook**, which is commonly used to fetch data when a component loads.
+
+## Topics Covered
+
+- Axios
+- Fetch API
+- useEffect
+- API Integration
+- HTTP Requests
+
+## Practical Work
+
+- Connected frontend to backend.
+- Displayed MongoDB data.
+- Sent POST requests.
+- Managed loading state.
+
+## Key Learnings
+
+- APIs connect frontend and backend.
+- Axios simplifies HTTP requests.
+- useEffect handles data fetching.
+
+---
+
+# Daily Training Diary – Day 28
+
+Today's practical session involved creating a complete **CRUD (Create, Read, Update, Delete)** application. CRUD operations form the backbone of most web applications because they allow users to manage data efficiently.
+
+I connected the React frontend with the Express backend and MongoDB database to perform all CRUD operations dynamically.
+
+## Topics Covered
+
+- CRUD Operations
+- React Forms
+- API Integration
+- State Management
+
+## Practical Work
+
+- Added new users.
+- Updated records.
+- Deleted records.
+- Displayed live database data.
+
+## Key Learnings
+
+- CRUD is the foundation of backend applications.
+- React state updates UI automatically.
+- Full-stack integration improves development skills.
+
+---
+
+# Daily Training Diary – Day 29
+
+Today, I learned about **Git and GitHub**, which are essential tools for version control and collaboration. Git allows developers to track changes in their projects, while GitHub provides a platform for storing repositories and collaborating with other developers.
+
+I practiced creating repositories, making commits, working with branches, and pushing code to GitHub.
+
+## Topics Covered
+
+- Git
+- GitHub
+- Branching
+- Commits
+- Merge
+
+## Practical Work
+
+- Initialized Git repository.
+- Created commits.
+- Worked with branches.
+- Pushed project to GitHub.
+
+## Key Learnings
+
+- Version control tracks project history.
+- GitHub enables collaboration.
+- Branches allow parallel development.
+
+---
+
+# Daily Training Diary – Day 30
+
+The final day of training was dedicated to integrating everything I learned throughout the MERN Stack journey. I revised frontend development using React, backend development using Node.js and Express.js, MongoDB database operations, authentication, API integration, and project structure.
+
+I also worked on debugging, improving code quality, and optimizing the overall project. This training gave me practical exposure to full-stack development and helped me understand how different technologies work together to build real-world web applications.
+
+## Topics Covered
+
+- MERN Stack Integration
+- React
+- Node.js
+- Express.js
+- MongoDB
+- Authentication
+- CRUD Operations
+- API Integration
+
+## Practical Work
+
+- Connected frontend with backend.
+- Implemented authentication.
+- Performed CRUD operations.
+- Fixed bugs.
+- Optimized project structure.
+- Tested complete application.
+
+## Overall Learning Outcome
+
+Over these 30 days, I developed a strong understanding of Full Stack Web Development using the MERN Stack. I learned HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, REST APIs, JWT Authentication, MVC Architecture, Git, GitHub, and full-stack project development. Through continuous hands-on practice, debugging, and project implementation, I improved my problem-solving abilities and gained confidence in building responsive, secure, and scalable web applications following modern development practices.
+
 ---
 
  I gained practical knowledge of backend development using Node.js, Express.js, and MongoDB. I learned how controllers separate business logic from routes, how middleware processes requests before reaching controllers, and how to establish a secure MongoDB connection using configuration files and environment variables. I also explored JSON data handling, developed RESTful APIs with CRUD operations, tested APIs using Postman/Thunder Client, practiced essential MongoDB commands, and integrated all backend components into a structured application. These concepts strengthened my understanding of building scalable and maintainable backend systems.
